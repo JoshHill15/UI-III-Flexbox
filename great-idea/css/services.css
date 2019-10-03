@@ -75,9 +75,9 @@ h1, h2, h3, h4, h5 {
 .header{
     /* border: 2px solid red; */
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items:center;
-    margin-top:20px;
+    margin:20px 20px 0 5px;
 }
 nav{
     display:flex;
@@ -91,23 +91,30 @@ nav a{
     color:#c9c9c9;
 
 }
+nav a:hover{
+    color:black;
+}
 .services-header-img{
     width:90%;
-    margin:25px 0px 35px 43px;    
+    margin:30px 10px 10px 43px;    
 }
 .services h2{
     font-size:30px;
     margin-left:39px;
 }
 .services p{
+    padding-bottom:30px;
     margin-bottom:30px;
     margin-left:39px;
+    margin-right:39px;
+    border-bottom:2px solid black;
+    /* border:2px solid red; */
 }
 .top2, .secondRow, .thirdrow{
     /* border:2px solid red; */
     display:flex;
     justify-content: space-evenly;
-    margin-bottom:5%;
+    margin:0 -1.5% 5% -1.5%;
 }
 
 .boxess{
@@ -129,17 +136,18 @@ nav a{
     text-align:center;
     border-radius:10px;
 }
+
 h2{
     margin-top:15px;
 }
 .bottom{
     /* border:2px solid red; */
-    border-top:4px solid black;
+    border-top:2px solid black;
     display:flex;
     justify-content: space-between;
-    width:90%;
-    padding:5% 0;
-    margin:0 5%;
+    width:93%;
+    padding:4% 0;
+    margin:0 4% 0 3.7%;
 }
 .facts{
     /* border:2px solid red; */
@@ -151,7 +159,8 @@ h2{
 .copyright{
     text-align:center;
     margin-top:5px;
-    font-size:14px;
+    font-size:15px;
+
 }
 ul{
     display:flex;
@@ -162,3 +171,20 @@ ul{
     justify-content:space-around;
     list-style-type:disc;
 }
+.services-info-img{
+    /* border: 2px solid red; */
+    margin-top:2%
+}
+/* .response{
+        border:2px solid red;
+        display:flex;
+        justify-content: space-evenly;
+        margin-bottom:5%;
+    } */
+ @media screen and (max-width: 600px) {
+    .container {
+      background-color: olive;
+      
+    } 
+  }
+  
